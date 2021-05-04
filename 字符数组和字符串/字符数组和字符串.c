@@ -19,15 +19,15 @@ int main0(void)
 	return 0;
 }
 
-int main1(void)
+int main(void)
 {
 	//¶¨Òå×Ö·ûÊý×é´æ´¢×Ö·û´®
-	char ch[10];
-	scanf("%s", ch);
+	char ch[11];
+	scanf("%10s", ch);
 	printf("%s\n", ch);
 	return 0;
 }
-int main(void)
+int main1(void)
 {
 	//Æ´½Ó×Ö·û´®
 	char ch1[] = "Hello";
